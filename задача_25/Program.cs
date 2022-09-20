@@ -6,8 +6,8 @@
 
 int Result(int number, int degree)
 {
-    int res = 1;
-    for(int i = 1; i <= degree; i++)
+    int res = number;
+    for(int i = 1; i < degree; i++)
     {
         res = res * number;
     }
